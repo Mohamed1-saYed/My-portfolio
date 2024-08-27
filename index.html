@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Hello! I’m Mohamed Sayed, a developer with experience in front-end web development. I thrive on transforming ideas into innovative and visually captivating solutions that reflect professionalism and excellence. Explore my portfolio to see my previous projects and achievements, and discover how I can add value to your next project.">
+ <meta name="keywords" content="Personal portfolio,front-end development, web development, HTML, CSS, JavaScript, responsive design, React, Angular, Vue.js, Bootstrap, SASS, jQuery, user interface, web performance, front-end frameworks, web accessibility, mobile-first design, front-end technologies">
+ <meta name="robots" content="index,follow">
+ <meta property="og:title" content="Mohamed-saYed">
+ <meta property="og:description" content="Hello! I’m Mohamed Sayed, a developer with experience in front-end web development. I thrive on transforming ideas into innovative and visually captivating solutions that reflect professionalism and excellence. Explore my portfolio to see my previous projects and achievements, and discover how I can add value to your next project.">
+ <meta property="og:keywords" content="Personal portfolio,front-end development, web development, HTML, CSS, JavaScript, responsive design, React, Angular, Vue.js, Bootstrap, SASS, jQuery, user interface, web performance, front-end frameworks, web accessibility, mobile-first design, front-end technologies">
+ <meta property="og:url" content="">
+ <meta property="og:image" content="images/og.png">
+ <meta property="og:type" content="website">
+ <title>Mohamed-saYed</title>
+ <!-- Fave-icon -->
+  <link rel="icon" href="images/Fave-icon.png">
+ <!-- Css-file -->
+  <link rel="stylesheet" href="styles.css">
+ <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head>
+<body>
+ <!-- start-main -->
+  <main>
+    <button id="btnAside"><i class="fa-solid fa-ellipsis-vertical"></i></button>   
+   <!-- start-aside -->
+    <aside>
+     <!-- profile-box -->   
+     <div class="profile-box">
+      <img src="images/profile.jpg" loading="lazy" alt="profile-image">
+      <div class="txt-profile">
+       <h1>Mohamed sayed</h1>
+       <p>front-end web developer</p>   
+      </div>   
+     </div>
+     <!-- second-box -->
+     <div class="second-box">
+      <!-- Personal-information -->
+       <div class="Personal-information">
+        <p class="p-1">Country: <span>Egypt</span></p>   
+        <p class="p-2">City: <span>aswan</span></p>   
+        <p class="p-3">Age: <span>21</span></p>   
+       </div>
+       <!-- my-languages -->
+       <div class="my-languages">
+        <p class="language-1">100%</p>   
+        <p class="language-2">60%</p>   
+       </div>
+       <div class="skils">
+        <div class="btns"><button id="btn-skils">Skils</button> <button id="btn-tools">Tools</button></div>   
+        <!-- my-skiles -->
+       <div id="my-skiles">
+        <p class="skil-1">HTML <span>90%</span></p>   
+        <p class="skil-2">CSS <span>80%</span></p>   
+        <p class="skil-3">Bootstrap  <span>85%</span></p>   
+        <p class="skil-4">js <span>60%</span></p>   
+       </div>
+       <!-- my-tools -->
+       <div id="my-tools">
+        <div class="tool-1"><img src="images/git.png" alt="git"></div>   
+        <div class="tool-2"><img src="images/github.jpg" alt="github"></div>   
+        <div class="tool-3"><img src="images/vs.jpg" alt="vs-code"></div>   
+       </div>   
+       </div>
+       <!-- my-services -->
+       <div class="my-services">
+        <p class="service-1"><span><i class="fa-solid fa-check"></i></span> Responsive design</p>   
+        <p class="service-2"><span><i class="fa-solid fa-check"></i></span> Advanced CSS Techniques</p>   
+        <p class="service-3"><span><i class="fa-solid fa-check"></i></span> Accessibility</p>   
+        <p class="service-4"><span><i class="fa-solid fa-check"></i></span> SEO</p>      
+       </div>
+       <div class="link">
+        <a href="#">Download CV <span><i class="fa-solid fa-download"></i></span></a>   
+       </div>
+       <div class="footer-aside">
+        <a href="https://www.facebook.com/profile.php?id=100071761480205" target="_blank"><i class="fa-brands fa-facebook"></i></a>   
+        <a href="https://github.com/Mohamed1-saYed" target="_blank"><i class="fa-brands fa-github"></i></a>   
+        <a href="https://www.linkedin.com/in/mohamed-sayed-2aa00b2a2/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>   
+       </div>
+     </div>
+    </aside>
+   <!-- end-aside -->   
+   <!-- start-container-all -->
+    <div id="container-all">
+     <div class="menu">
+      <button id="ShowMenu"><i class="fa-solid fa-bars"></i></button>
+      <h2 id="h2">HOME</h2>
+      <ul id="menu">
+       <button id="HideMenu">X</button>
+       <div class="li-container">
+        <li><a href="#" onclick="TransText('HOME')">Home</a></li>   
+        <li><a href="#about-sec" onclick="TransText('ABOUT')">About</a></li>   
+        <li><a href="#projects" onclick="TransText('PROJECTS')">Projects</a></li>   
+        <li><a href="#Contact" onclick="TransText('CONTACT')">Contact</a></li>  
+       </div>  
+      </ul>   
+     </div>   
+     <!-- start-header -->
+      <header>
+       <div class="container-header">
+        <div class="text-header">
+          <h3>discover my amazing 
+art space</h3>
+          <p>&lt<span>code</span>&gtI make your ideas a reality.&lt/<span>code</span>&gt</p> 
+          <a href="#">explore now</a>
+        </div>
+        <div class="right-animate"><div class="loader"></div></div> 
+       </div>
+      </header>
+     <!-- end-header -->
+     <!-- start-about-me -->
+      <section id="about-sec" class="about-me">
+       <h4>About <span>me</span></h4> 
+       <!-- left-sec -->
+        <div class="left-sec">
+         <p class="p-1">Need a creative product?
+<span>I can help you</span>             
+         </p>
+         <p class="p-2">Hi, I’m Mohamed, a dedicated Front-End Web Developer with a strong focus on crafting intuitive and engaging user interfaces. My skills in HTML, CSS, and JavaScript help me turn creative ideas into responsive, visually compelling web solutions.
+        </p>
+         <a href="mailto:mohamedsaied0990@gmail.com">Hire me</a>
+        </div>
+       <!-- right-sec -->
+        <div class="right-sec"></div> 
+      </section>
+     <!-- end-about-me -->
+     <!-- start-my-projects -->
+      <section class="projects-sec">
+       <h4 id="projects">Discover My Artistic World <span><i class="fa-regular fa-face-smile-beam"></i></span></h4>
+       <div class="nav-projects">
+        <button id="All">All</button> 
+        <button id="HtmlCss">Html and Css</button> 
+        <button id="HtmlCssJs">Html Css & Js</button> 
+        <button id="clone">Clone</button> 
+       </div> 
+       <div id="my-projects" class="my-projects">
+         <!-- project-1 -->
+       <div class="project-1 htmlCss">
+        <p>E-commerce website</p>
+        <img src="images/project-1.png" loading="lazy" alt="E-commerce website">
+        <div class="my-project">
+         <div class="links">
+          <a href="https://github.com/Mohamed1-saYed/E-commerce-4"><i class="fa-brands fa-github"></i></a> 
+          <a href="https://mohamed1-sayed.github.io/E-commerce-4/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+         </div> 
+        </div> 
+       </div>
+       <!-- project-2 -->
+       <div class="project-2 htmlCss">
+        <p>E-commerce website</p>
+        <img src="images/project-2.png" loading="lazy" alt="E-commerce website">
+        <div class="my-project">
+         <div class="links">
+          <a href="https://github.com/Mohamed1-saYed/E-commerce-website"><i class="fa-brands fa-github"></i></a> 
+          <a href="https://mohamed1-sayed.github.io/E-commerce-website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+         </div> 
+        </div> 
+       </div>
+       <!-- project-3 -->
+       <div class="project-3 htmlCss">
+        <p>E-commerce website</p>
+        <img loading="lazy" src="images/project-3.png" alt="E-commerce website">
+        <div class="my-project">
+         <div class="links">
+          <a href="https://github.com/Mohamed1-saYed/E-commerce-websites"><i class="fa-brands fa-github"></i></a> 
+          <a href="https://mohamed1-sayed.github.io/E-commerce-websites/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+         </div> 
+        </div> 
+       </div>
+       <!-- project-4 -->
+       <div class="project-4 htmlCss">
+        <p>Games website</p>
+        <img loading="lazy" src="images/project-4.png" alt="E-commerce website">
+        <div class="my-project">
+         <div class="links">
+          <a href="https://github.com/Mohamed1-saYed/games-website"><i class="fa-brands fa-github"></i></a> 
+          <a href="https://mohamed1-sayed.github.io/games-website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+         </div> 
+        </div> 
+       </div>
+       <!-- project-5 -->
+       <div class="project-5 clone">
+        <p>Youtube clone</p>
+        <img loading="lazy" src="images/project-5.png" alt="E-commerce website">
+        <div class="my-project">
+         <div class="links">
+          <a href="https://github.com/Mohamed1-saYed/youtube-clone"><i class="fa-brands fa-github"></i></a> 
+          <a href="https://mohamed1-sayed.github.io/youtube-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+         </div> 
+        </div> 
+       </div>
+       <!-- project-6 -->
+       <div class="project-6 clone">
+        <p>Amazon clone</p>
+        <img loading="lazy" src="images/project-6.png" alt="E-commerce website">
+        <div class="my-project">
+         <div class="links">
+          <a href="https://github.com/Mohamed1-saYed/Amazon-clone"><i class="fa-brands fa-github"></i></a> 
+          <a href="https://mohamed1-sayed.github.io/Amazon-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+         </div> 
+        </div> 
+       </div>
+       <!-- project-7 -->
+       <div class="project-7 HtmlCssJs">
+        <p>E-commerce website</p>
+        <img loading="lazy" src="images/project-7.png" alt="E-commerce website">
+        <div class="my-project">
+         <div class="links">
+          <a href="https://github.com/Mohamed1-saYed/E-commerce-website-3"><i class="fa-brands fa-github"></i></a> 
+          <a href="https://mohamed1-sayed.github.io/E-commerce-website-3/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+         </div> 
+        </div> 
+       </div>
+       <!-- project-8 -->
+       <div class="project-8 HtmlCssJs">
+        <p>Color generator</p>
+        <img loading="lazy" src="images/project-8.png" alt="E-commerce website">
+        <div class="my-project">
+         <div class="links">
+          <a href="https://github.com/Mohamed1-saYed/color-generator"><i class="fa-brands fa-github"></i></a> 
+          <a href="https://mohamed1-sayed.github.io/color-generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+         </div> 
+        </div> 
+       </div>
+       <!-- project-9 -->
+       <div class="project-9 HtmlCssJs">
+        <p>E-commerce website</p>
+        <img loading="lazy" src="images/project-9.png" alt="E-commerce website">
+        <div class="my-project">
+         <div class="links">
+          <a href="https://github.com/Mohamed1-saYed/ET-store-2"><i class="fa-brands fa-github"></i></a> 
+          <a href="https://mohamed1-sayed.github.io/ET-store-2/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+         </div> 
+        </div> 
+       </div>
+       </div>
+      </section>
+    <!-- end-my-projects -->
+    <!-- start-Contact-me -->
+     <section class="Contact-me">
+      <div class="text-container">
+       <h5 id="Contact">Contact <span>me</span></h5>
+       <p>Let's work together <span><i class="fa-solid fa-handshake-angle"></i></span></p>
+      </div> 
+      <form>
+       <div class="tour-name">
+        <input id="name" type="text" placeholder="Name">
+       </div> 
+       <div class="email">
+        <input id="email" type="email" placeholder="Email address">
+       </div>
+       <div class="phone-Number">
+        <input id="Phone-Number" type="number" placeholder="Phone number"> 
+       </div>
+       <div class="message">
+        <textarea id="message" id="message" cols="30" rows="10"></textarea> 
+       </div>
+       <button onclick="sendMail()" type="submit">Submit</button>
+        <!-- emailJS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+(function(){
+emailjs.init("JGZXZnVAEkHQHBu9i");
+})();
+</script>
+      </form>
+     </section>
+    <!-- end-Contact-me -->
+    </div>
+   <!-- end-container-all -->
+  </main>
+ <!-- end-main -->  
+ <script src="https://smtpjs.com/v3/smtp.js"></script>
+ <!-- JS-file -->
+ <script src="script.js"></script>   
+</body>
+</html>
+
+
+
